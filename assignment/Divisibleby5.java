@@ -1,10 +1,9 @@
 import java.util.Scanner;
-public class Diviisibleby7
-{
+ class Divisibleby5{
     public static void main(String[] args) 
     {
         int n;
-        Scanner s = new Scanner(System.in);
+        Scanner s= new Scanner(System.in);
         System.out.print("Enter any number:");
         n = s.nextInt();
         if(n % 5 == 0)
@@ -15,5 +14,6 @@ public class Diviisibleby7
         {
             System.out.println(n+" is not divisible by 5");
         }
+        input.close();
     }
 }
