@@ -1,8 +1,8 @@
-import java.lang.*;
+
 public class ex {
     void display(){
         try{
-            int a=5/0;
+            int i=5/0;
         }
         catch(ArithmeticException e){
             System.out.println(e);
