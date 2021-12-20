@@ -1,4 +1,4 @@
-class Simpleprogram {
+class pattern1 {
     public static void main(String[] args) {
         int j,i;
         int rows =5;
